@@ -36,7 +36,7 @@
 </template>
 
 <script>
-    import db from '@/firebase/init'
+    import {db} from '@/firebase/init'
 
     export default {
       data(){
@@ -86,7 +86,8 @@
                       originalURL: this.url,
                       shortURL,
                       uID,
-                      timestamp: Date.now()
+                      timestamp: Date.now(),
+                      used: []
                   })
                       .then(()=>{
                           this.$vs.loading.close('#urlForm > .con-vs-loading')

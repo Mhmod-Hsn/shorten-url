@@ -20,7 +20,8 @@
 
 
 <script>
-    import db from '@/firebase/init'
+    import {db,fb} from '@/firebase/init'
+
 
     export default {
         data(){
@@ -48,7 +49,7 @@
 
 
                     db.collection('URLs').doc(this.urlObject.id).update({
-                        used: this.urlObject.used+=1,
+                        used: fb.firestore.FieldValue.arrayUnion(Date.now())
                     })
                         .then(()=>{
                         })
