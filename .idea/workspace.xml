@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2af67e3-75c5-4325-882e-e93e3b3ae66b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firestore.indexes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firestore.rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/navbar/TheNavbarHorizontal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/navbar/TheNavbarHorizontal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/main/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/main/Main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/SingleURL.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/SingleURL.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587908561035</updated>
       <workItem from="1587908565842" duration="12224000" />
-      <workItem from="1587973648397" duration="3980000" />
+      <workItem from="1587973648397" duration="5003000" />
     </task>
     <servers />
   </component>
