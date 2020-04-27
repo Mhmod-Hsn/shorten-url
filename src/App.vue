@@ -83,3 +83,9 @@ export default {
 }
 
 </script>
+
+<style>
+  .con-vs-loading{
+    position: absolute!important;
+  }
+</style>

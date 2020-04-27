@@ -1,5 +1,5 @@
 {
-  "name": "vuexy-vuejs-html-laravel-dashboard-admin-template",
+  "name": "Shorten-URL",
   "version": "4.1.0",
   "private": true,
   "scripts": {
@@ -19,7 +19,7 @@
     "core-js": "2.6.5",
     "echarts": "^4.2.1",
     "file-saver": "2.0.1",
-    "firebase": "^6.0.4",
+    "firebase": "^6.6.2",
     "instantsearch.css": "^7.3.1",
     "jsonwebtoken": "^8.5.1",
     "material-icons": "^0.3.1",

@@ -22,7 +22,7 @@ const themeConfig = {
   disableThemeTour  : false,       // options[Boolean] : true, false(default)
   footerType        : "hidden",    // options[String]  : static(default) / sticky / hidden
   hideScrollToTop   : true,       // options[Boolean] : true, false(default)
-  mainLayoutType    : "vertical",  // options[String]  : vertical(default) / horizontal
+  mainLayoutType    : "horizontal",  // options[String]  : vertical(default) / horizontal
   navbarColor       : "#fff",      // options[String]  : HEX color / rgb / rgba / Valid HTML Color name - (default: #fff)
   navbarType        : "hidden",  // options[String]  : floating(default) / static / sticky / hidden
   routerTransition  : "slide-fade", // options[String]  : zoom-fade / slide-fade / fade-bottom / fade / zoom-out / none(default)

@@ -37,9 +37,10 @@ const router = new Router({
                 component: () => import('./views/Home.vue')
               },
               {
-                path: '/page2',
-                name: 'page-2',
-                component: () => import('./views/Page2.vue')
+                path: '/:id',
+                name: 'SingleURL',
+                component: () => import('./views/SingleURL.vue'),
+                props: true
               },
             ],
         },
