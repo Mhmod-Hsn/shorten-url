@@ -37,6 +37,7 @@
                 .then(snapshot=> {
                     snapshot.forEach(doc=> {
                         this.urlObject = doc.data()
+                        this.urlObject.id = doc.id
                         console.log(this.urlObject)
                     });
                     this.$vs.loading({
@@ -46,6 +47,14 @@
                     })
 
 
+                    db.collection('URLs').doc(this.urlObject.id).update({
+                        used: this.urlObject.used+=1,
+                    })
+                        .then(()=>{
+                        })
+                        .catch(err=>{
+                            console.log(err)
+                        })
 
 
 
