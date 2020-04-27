@@ -93,7 +93,7 @@
                           this.$vs.loading.close('#urlForm > .con-vs-loading')
                           this.$vs.notify({
                               title:'Success',
-                              text:'URL has been made successfully',
+                              text:'URL has been created successfully',
                               color:'success'})
 
                           this.finalResult=shortURL
