@@ -1,4 +1,10 @@
-# modern
+# ShortenURL
+
+![](preview.jpg)
+
+## Project Demo
+[Launch Demo](https://lnk-shrt.web.app/)
+
 
 ## Project setup
 ```
