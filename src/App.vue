@@ -84,7 +84,9 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss">
+	@import "assets/custom";
+
   .con-vs-loading{
     position: absolute!important;
   }

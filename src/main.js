@@ -11,16 +11,16 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+// import fontawesome pro
+require('./assets/fa');
+
+
 // Vuesax Component Framework
 import Vuesax from 'vuesax'
 import 'material-icons/iconfont/material-icons.css' //Material Icons
 import 'vuesax/dist/vuesax.css'; // Vuesax
 Vue.use(Vuesax)
 
-
-// axios
-import axios from "./axios.js"
-Vue.prototype.$http = axios
 
 // Theme Configurations
 import '../themeConfig.js'
@@ -55,9 +55,6 @@ Vue.use(VueHammer)
 import 'prismjs'
 import 'prismjs/themes/prism-tomorrow.css'
 
-
-// Feather font icon
-require('./assets/css/iconfont.css')
 
 
 Vue.config.productionTip = false
