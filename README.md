@@ -1,6 +1,8 @@
 # ShortenURL
 
-![](preview.jpg)
+![](preview1.jpg)
+![](preview2.jpg)
+![](preview3.jpg)
 
 ## Project Demo
 [Launch Demo](https://lnk-shrt.web.app/)
